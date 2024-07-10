@@ -1,0 +1,5 @@
+name: First-BungeeCord-Plugin
+version: '${project.version}'
+main: net.slqmy.first_bungeecord_plugin.Main
+author: slqmy
+description: My first BungeeCord plugin. Nothing much to see here.
