@@ -7,7 +7,7 @@ import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.event.ProxyPingEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
-import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCord;
+import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.ChatUtility;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.DebugUtility;
 import org.jetbrains.annotations.NotNull;
@@ -22,7 +22,7 @@ public final class ProxyPingEventListener implements Listener {
 
 	private Favicon favicon;
 
-	public ProxyPingEventListener(@NotNull final FirstBungeeCord plugin) {
+	public ProxyPingEventListener(@NotNull final FirstBungeeCordPlugin plugin) {
 		try {
 			favicon = Favicon.create(ImageIO.read(new File("assets/server-icon.png")));
 		} catch (final IOException exception) {

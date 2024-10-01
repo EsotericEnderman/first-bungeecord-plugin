@@ -5,7 +5,7 @@ import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
-import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCord;
+import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.CommandUtility;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.type.MessageSender;
 import org.jetbrains.annotations.NotNull;
@@ -14,9 +14,9 @@ import java.util.Arrays;
 import java.util.UUID;
 
 public final class ReplyCommand extends Command {
-	private final FirstBungeeCord plugin;
+	private final FirstBungeeCordPlugin plugin;
 
-	public ReplyCommand(@NotNull final FirstBungeeCord plugin) {
+	public ReplyCommand(@NotNull final FirstBungeeCordPlugin plugin) {
 		super("reply");
 
 		this.plugin = plugin;

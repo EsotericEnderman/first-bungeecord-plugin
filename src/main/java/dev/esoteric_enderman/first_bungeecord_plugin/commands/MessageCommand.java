@@ -7,7 +7,7 @@ import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCord;
+import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.CommandUtility;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.StringUtility;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.type.MessageSender;
@@ -18,9 +18,9 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public final class MessageCommand extends Command implements TabExecutor {
-	private final FirstBungeeCord plugin;
+	private final FirstBungeeCordPlugin plugin;
 
-	public MessageCommand(@NotNull final FirstBungeeCord plugin) {
+	public MessageCommand(@NotNull final FirstBungeeCordPlugin plugin) {
 		super("message");
 
 		this.plugin = plugin;

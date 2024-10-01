@@ -6,15 +6,15 @@ import net.md_5.bungee.api.event.PlayerDisconnectEvent;
 import net.md_5.bungee.api.event.PostLoginEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
-import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCord;
+import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.ChatUtility;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.type.MessageSender;
 import org.jetbrains.annotations.NotNull;
 
 public final class ConnectionListener implements Listener {
-	private final FirstBungeeCord plugin;
+	private final FirstBungeeCordPlugin plugin;
 
-	public ConnectionListener(@NotNull final FirstBungeeCord plugin) {
+	public ConnectionListener(@NotNull final FirstBungeeCordPlugin plugin) {
 		this.plugin = plugin;
 	}
 
