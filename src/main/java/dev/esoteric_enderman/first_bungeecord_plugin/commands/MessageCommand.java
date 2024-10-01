@@ -34,7 +34,7 @@ public final class MessageCommand extends Command implements TabExecutor {
             return;
         }
 
-        if (args.length < 2 || "".equals(Arrays.toString(args).trim())) {
+        if (args.length < 2 || Arrays.toString(args).trim().isEmpty()) {
             CommandUtility.sendMessage(sender, ChatColor.RED + "Please provide a player to message, and a message!");
             return;
         }

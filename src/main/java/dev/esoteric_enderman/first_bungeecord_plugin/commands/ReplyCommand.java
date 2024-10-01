@@ -30,7 +30,7 @@ public final class ReplyCommand extends Command {
             return;
         }
 
-        if (args.length == 0 || "".equals(Arrays.toString(args).trim())) {
+        if (args.length == 0 || Arrays.toString(args).trim().isEmpty()) {
             CommandUtility.sendMessage(sender, ChatColor.RED + "Please provide a message to reply with!");
             return;
         }
