@@ -1,4 +1,4 @@
-package net.slqmy.first_bungeecord_plugin.utility;
+package dev.esoteric_enderman.first_bungeecord_plugin.utility;
 
 import org.jetbrains.annotations.NotNull;
 

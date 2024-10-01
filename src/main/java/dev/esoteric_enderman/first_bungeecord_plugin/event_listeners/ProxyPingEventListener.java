@@ -1,4 +1,4 @@
-package net.slqmy.first_bungeecord_plugin.event_listeners;
+package dev.esoteric_enderman.first_bungeecord_plugin.event_listeners;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.Favicon;
@@ -7,9 +7,9 @@ import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.event.ProxyPingEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
-import net.slqmy.first_bungeecord_plugin.FirstBungeeCord;
-import net.slqmy.first_bungeecord_plugin.utility.ChatUtility;
-import net.slqmy.first_bungeecord_plugin.utility.DebugUtility;
+import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCord;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.ChatUtility;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.DebugUtility;
 import org.jetbrains.annotations.NotNull;
 
 import javax.imageio.ImageIO;

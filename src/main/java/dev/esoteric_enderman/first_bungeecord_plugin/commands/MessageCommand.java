@@ -1,4 +1,4 @@
-package net.slqmy.first_bungeecord_plugin.commands;
+package dev.esoteric_enderman.first_bungeecord_plugin.commands;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
@@ -7,10 +7,10 @@ import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import net.slqmy.first_bungeecord_plugin.FirstBungeeCord;
-import net.slqmy.first_bungeecord_plugin.utility.CommandUtility;
-import net.slqmy.first_bungeecord_plugin.utility.StringUtility;
-import net.slqmy.first_bungeecord_plugin.utility.type.MessageSender;
+import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCord;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.CommandUtility;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.StringUtility;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.type.MessageSender;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package net.slqmy.first_bungeecord_plugin.utility.type;
+package dev.esoteric_enderman.first_bungeecord_plugin.utility.type;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.connection.ProxiedPlayer;

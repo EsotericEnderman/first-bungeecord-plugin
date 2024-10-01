@@ -1,10 +1,10 @@
-package net.slqmy.first_bungeecord_plugin.commands;
+package dev.esoteric_enderman.first_bungeecord_plugin.commands;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import net.slqmy.first_bungeecord_plugin.utility.StringUtility;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.StringUtility;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

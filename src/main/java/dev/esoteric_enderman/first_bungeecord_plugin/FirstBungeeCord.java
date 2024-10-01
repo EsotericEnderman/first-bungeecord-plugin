@@ -1,18 +1,18 @@
-package net.slqmy.first_bungeecord_plugin;
+package dev.esoteric_enderman.first_bungeecord_plugin;
 
 import com.google.common.collect.ImmutableList;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.api.plugin.PluginManager;
 import net.md_5.bungee.api.scheduler.ScheduledTask;
-import net.slqmy.first_bungeecord_plugin.commands.FruitCommand;
-import net.slqmy.first_bungeecord_plugin.commands.MessageCommand;
-import net.slqmy.first_bungeecord_plugin.commands.PingCommand;
-import net.slqmy.first_bungeecord_plugin.commands.ReplyCommand;
-import net.slqmy.first_bungeecord_plugin.event_listeners.ConnectionListener;
-import net.slqmy.first_bungeecord_plugin.event_listeners.ProxyPingEventListener;
-import net.slqmy.first_bungeecord_plugin.utility.DebugUtility;
-import net.slqmy.first_bungeecord_plugin.utility.PluginUtility;
+import dev.esoteric_enderman.first_bungeecord_plugin.commands.FruitCommand;
+import dev.esoteric_enderman.first_bungeecord_plugin.commands.MessageCommand;
+import dev.esoteric_enderman.first_bungeecord_plugin.commands.PingCommand;
+import dev.esoteric_enderman.first_bungeecord_plugin.commands.ReplyCommand;
+import dev.esoteric_enderman.first_bungeecord_plugin.event_listeners.ConnectionListener;
+import dev.esoteric_enderman.first_bungeecord_plugin.event_listeners.ProxyPingEventListener;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.DebugUtility;
+import dev.esoteric_enderman.first_bungeecord_plugin.utility.PluginUtility;
 import org.enginehub.squirrelid.Profile;
 import org.enginehub.squirrelid.resolver.HttpRepositoryService;
 import org.enginehub.squirrelid.resolver.ParallelProfileService;
