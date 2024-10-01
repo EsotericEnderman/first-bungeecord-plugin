@@ -69,7 +69,7 @@ public final class FirstBungeeCordPlugin extends Plugin {
 				PluginUtility.log("Notch's UUID: " + profile.getUniqueId());
 			}
 
-			List<String> names = Arrays.asList("Notch", "Slqmy", "Slvmy", "Dream", "TechnoBlade");
+			List<String> names = Arrays.asList("Notch", "EsotericEnderman", "NullSlime", "Dream", "TechnoBlade");
 
 			final ImmutableList<Profile> profiles = resolver.findAllByName(names);
 
