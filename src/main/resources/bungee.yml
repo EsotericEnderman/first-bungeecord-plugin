@@ -1,4 +1,4 @@
-name: First-BungeeCord-Plugin
+name: first-bungeecord-plugin
 version: '${project.version}'
 main: net.slqmy.first_bungeecord_plugin.Main
 author: Esoteric Enderman

@@ -9,7 +9,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>First Bungeecord Plugin</name>
+    <name>First BungeeCord Plugin</name>
 
     <description>My first bungeecord plugin.</description>
     <properties>
