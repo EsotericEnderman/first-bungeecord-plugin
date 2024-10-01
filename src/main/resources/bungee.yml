@@ -1,5 +1,5 @@
 name: first-bungeecord-plugin
 version: '${project.version}'
-main: dev.esoteric_enderman.first_bungeecord_plugin.Main
+main: dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin
 author: Esoteric Enderman
 description: My first BungeeCord plugin. Nothing much to see here.
