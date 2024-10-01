@@ -5,7 +5,7 @@ import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
-import net.slqmy.first_bungeecord_plugin.Main;
+import net.slqmy.first_bungeecord_plugin.FirstBungeeCord;
 import net.slqmy.first_bungeecord_plugin.utility.CommandUtility;
 import net.slqmy.first_bungeecord_plugin.utility.type.MessageSender;
 import org.jetbrains.annotations.NotNull;
@@ -14,9 +14,9 @@ import java.util.Arrays;
 import java.util.UUID;
 
 public final class ReplyCommand extends Command {
-	private final Main plugin;
+	private final FirstBungeeCord plugin;
 
-	public ReplyCommand(@NotNull final Main plugin) {
+	public ReplyCommand(@NotNull final FirstBungeeCord plugin) {
 		super("reply");
 
 		this.plugin = plugin;

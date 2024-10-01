@@ -6,15 +6,15 @@ import net.md_5.bungee.api.event.PlayerDisconnectEvent;
 import net.md_5.bungee.api.event.PostLoginEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
-import net.slqmy.first_bungeecord_plugin.Main;
+import net.slqmy.first_bungeecord_plugin.FirstBungeeCord;
 import net.slqmy.first_bungeecord_plugin.utility.ChatUtility;
 import net.slqmy.first_bungeecord_plugin.utility.type.MessageSender;
 import org.jetbrains.annotations.NotNull;
 
 public final class ConnectionListener implements Listener {
-	private final Main plugin;
+	private final FirstBungeeCord plugin;
 
-	public ConnectionListener(@NotNull final Main plugin) {
+	public ConnectionListener(@NotNull final FirstBungeeCord plugin) {
 		this.plugin = plugin;
 	}
 

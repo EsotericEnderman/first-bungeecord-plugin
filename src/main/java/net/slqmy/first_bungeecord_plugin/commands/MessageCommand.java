@@ -7,7 +7,7 @@ import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import net.slqmy.first_bungeecord_plugin.Main;
+import net.slqmy.first_bungeecord_plugin.FirstBungeeCord;
 import net.slqmy.first_bungeecord_plugin.utility.CommandUtility;
 import net.slqmy.first_bungeecord_plugin.utility.StringUtility;
 import net.slqmy.first_bungeecord_plugin.utility.type.MessageSender;
@@ -18,9 +18,9 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public final class MessageCommand extends Command implements TabExecutor {
-	private final Main plugin;
+	private final FirstBungeeCord plugin;
 
-	public MessageCommand(@NotNull final Main plugin) {
+	public MessageCommand(@NotNull final FirstBungeeCord plugin) {
 		super("message");
 
 		this.plugin = plugin;
