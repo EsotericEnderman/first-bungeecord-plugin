@@ -21,6 +21,7 @@ import org.enginehub.squirrelid.resolver.ProfileService;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -68,9 +69,9 @@ public final class FirstBungeeCordPlugin extends Plugin {
 				PluginUtility.log("Notch's UUID: " + profile.getUniqueId());
 			}
 
-			final ImmutableList<Profile> profiles = resolver.findAllByName(
-							Arrays.asList("Notch", "Slqmy", "Slvmy", "Dream", "TechnoBlade")
-			);
+			List<String> names = Arrays.asList("Notch", "Slqmy", "Slvmy", "Dream", "TechnoBlade");
+
+			final ImmutableList<Profile> profiles = resolver.findAllByName(names);
 
 			for (final Profile currentProfile : profiles) {
 				PluginUtility.log("UUID of player " + currentProfile.getName() + ": " + currentProfile.getUniqueId());
@@ -79,7 +80,7 @@ public final class FirstBungeeCordPlugin extends Plugin {
 			// Doing it on separate threads:
 			final ParallelProfileService service = new ParallelProfileService(resolver, 3);
 			service.findAllByName(
-							Arrays.asList("Notch", "Slqmy", "Slvmy", "Dream", "TechnoBlade"),
+							names,
 							(final Profile currentProfile) -> {
 								PluginUtility.log("UUID of player " + currentProfile.getName() + ": " + currentProfile.getUniqueId());
 
