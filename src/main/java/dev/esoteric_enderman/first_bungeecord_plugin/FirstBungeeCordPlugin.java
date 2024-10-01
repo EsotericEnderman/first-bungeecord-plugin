@@ -39,7 +39,7 @@ public final class FirstBungeeCordPlugin extends Plugin {
         pluginManager.registerCommand(this, new ReplyCommand(this));
 
         pluginManager.registerListener(this, new ConnectionListener(this));
-        pluginManager.registerListener(this, new ProxyPingEventListener(this));
+        pluginManager.registerListener(this, new ProxyPingEventListener());
 
         final ScheduledTask task = proxyServer.getScheduler().schedule(this, () -> {
             PluginUtility.log("New scheduler cycle has started!");

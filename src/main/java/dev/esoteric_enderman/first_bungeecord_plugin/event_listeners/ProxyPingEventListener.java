@@ -1,6 +1,5 @@
 package dev.esoteric_enderman.first_bungeecord_plugin.event_listeners;
 
-import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.ChatUtility;
 import dev.esoteric_enderman.first_bungeecord_plugin.utility.DebugUtility;
 import net.md_5.bungee.api.ChatColor;
@@ -22,7 +21,7 @@ public final class ProxyPingEventListener implements Listener {
 
     private Favicon favicon;
 
-    public ProxyPingEventListener(@NotNull final FirstBungeeCordPlugin plugin) {
+    public ProxyPingEventListener() {
         try {
             favicon = Favicon.create(ImageIO.read(new File("assets/server-icon.png")));
         } catch (final IOException exception) {
