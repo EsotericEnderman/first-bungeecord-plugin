@@ -11,7 +11,8 @@
 
     <name>First BungeeCord Plugin</name>
 
-    <description>My first bungeecord plugin.</description>
+    <description>My first BungeeCord plugin. Nothing much to see here.</description>
+
     <properties>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
