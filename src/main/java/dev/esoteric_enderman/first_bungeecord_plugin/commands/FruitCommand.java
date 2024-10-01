@@ -12,6 +12,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public final class FruitCommand extends Command implements TabExecutor {
+
     public FruitCommand() {
         super("fruit");
     }

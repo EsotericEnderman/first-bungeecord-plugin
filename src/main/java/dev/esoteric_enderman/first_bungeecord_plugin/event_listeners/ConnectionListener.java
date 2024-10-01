@@ -12,6 +12,7 @@ import net.md_5.bungee.event.EventHandler;
 import org.jetbrains.annotations.NotNull;
 
 public final class ConnectionListener implements Listener {
+
     private final FirstBungeeCordPlugin plugin;
 
     public ConnectionListener(@NotNull final FirstBungeeCordPlugin plugin) {

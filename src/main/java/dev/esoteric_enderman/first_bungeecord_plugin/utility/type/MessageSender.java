@@ -7,6 +7,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.UUID;
 
 public final class MessageSender {
+
     private UUID uuid;
     private boolean isConsole;
 

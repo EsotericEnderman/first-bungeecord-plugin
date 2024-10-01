@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.UUID;
 
 public final class ReplyCommand extends Command {
+
     private final FirstBungeeCordPlugin plugin;
 
     public ReplyCommand(@NotNull final FirstBungeeCordPlugin plugin) {

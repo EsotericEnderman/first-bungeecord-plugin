@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.util.Random;
 
 public final class ProxyPingEventListener implements Listener {
+
     private static final Random random = new Random();
 
     private Favicon favicon;

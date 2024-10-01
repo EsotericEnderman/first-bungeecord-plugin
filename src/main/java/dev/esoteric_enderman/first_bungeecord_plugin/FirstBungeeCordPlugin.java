@@ -26,6 +26,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public final class FirstBungeeCordPlugin extends Plugin {
+
     private final Map<String, String> recentMessages = new HashMap<>();
 
     @Override
