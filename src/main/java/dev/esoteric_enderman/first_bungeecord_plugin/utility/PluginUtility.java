@@ -4,9 +4,9 @@ import org.jetbrains.annotations.NotNull;
 
 public final class PluginUtility {
 
-	private static final String LOG_PREFIX = "[first-bungeecord-plugin]";
+    private static final String LOG_PREFIX = "[first-bungeecord-plugin]";
 
-	public static void log(@NotNull final String message) {
-		System.out.println(LOG_PREFIX + " " + message);
-	}
+    public static void log(@NotNull final String message) {
+        System.out.println(LOG_PREFIX + " " + message);
+    }
 }
