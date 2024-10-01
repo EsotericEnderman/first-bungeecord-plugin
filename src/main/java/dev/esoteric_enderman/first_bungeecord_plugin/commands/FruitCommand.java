@@ -23,11 +23,11 @@ public final class FruitCommand extends Command implements TabExecutor {
 
 	@Override
 	public Iterable<String> onTabComplete(@NotNull final CommandSender sender, final String @NotNull [] args) {
-		switch (args.length) {
-			case 1: return StringUtility.getPartialMatches(Arrays.asList("Apple", "Grape", "Pear", "Kiwi"), args[0]);
-			case 2: return StringUtility.getPartialMatches(ProxyServer.getInstance().getPlayers().stream().map(CommandSender::getName).collect(Collectors.toList()), args[1]);
-		}
+        return switch (args.length) {
+            case 1 -> StringUtility.getPartialMatches(Arrays.asList("Apple", "Grape", "Pear", "Kiwi"), args[0]);
+            case 2 -> StringUtility.getPartialMatches(ProxyServer.getInstance().getPlayers().stream().map(CommandSender::getName).collect(Collectors.toList()), args[1]);
+            default -> new ArrayList<>();
+        };
 
-		return new ArrayList<>();
-	}
+    }
 }
