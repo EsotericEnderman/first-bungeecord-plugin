@@ -6,7 +6,7 @@
 
     <groupId>dev.enderman</groupId>
     <artifactId>minecraft.network.plugins.first</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>First BungeeCord Plugin</name>
