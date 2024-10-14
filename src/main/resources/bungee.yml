@@ -1,4 +1,4 @@
-name: first-bungeecord-plugin
+name: FirstBungeeCordPlugin
 version: '${project.version}'
 main: dev.enderman.minecraft.network.plugins.first.FirstBungeeCordPlugin
 author: Esoteric Enderman
