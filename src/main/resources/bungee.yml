@@ -1,5 +1,5 @@
 name: FirstBungeeCordPlugin
-version: '${project.version}'
+version: 1.0.0
 main: dev.enderman.minecraft.network.plugins.first.FirstBungeeCordPlugin
 author: Esoteric Enderman
 description: My first BungeeCord plugin. Nothing much to see here.
