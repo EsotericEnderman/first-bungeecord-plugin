@@ -30,6 +30,5 @@ public final class FruitCommand extends Command implements TabExecutor {
                     StringUtility.getPartialMatches(ProxyServer.getInstance().getPlayers().stream().map(CommandSender::getName).collect(Collectors.toList()), args[1]);
             default -> new ArrayList<>();
         };
-
     }
 }

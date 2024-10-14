@@ -96,5 +96,4 @@ public final class FirstBungeeCordPlugin extends Plugin {
     public Map<String, String> getRecentMessages() {
         return recentMessages;
     }
-
 }

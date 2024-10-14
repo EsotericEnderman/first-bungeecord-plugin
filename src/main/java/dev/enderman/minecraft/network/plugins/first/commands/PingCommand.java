@@ -18,9 +18,7 @@ public final class PingCommand extends Command {
     @Override
     public void execute(@NotNull final CommandSender sender, final String @NotNull [] args) {
         if (sender instanceof ProxiedPlayer player) {
-
             player.sendMessage(new TextComponent(ChatUtility.getLineChatPrefix() + ChatColor.GRAY + "Pong!"));
-
         } else {
             PluginUtility.log("Pong!");
         }
