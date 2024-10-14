@@ -1,14 +1,14 @@
-package dev.esoteric_enderman.first_bungeecord_plugin;
+package dev.enderman.minecraft.network.plugins.first;
 
 import com.google.common.collect.ImmutableList;
-import dev.esoteric_enderman.first_bungeecord_plugin.commands.FruitCommand;
-import dev.esoteric_enderman.first_bungeecord_plugin.commands.MessageCommand;
-import dev.esoteric_enderman.first_bungeecord_plugin.commands.PingCommand;
-import dev.esoteric_enderman.first_bungeecord_plugin.commands.ReplyCommand;
-import dev.esoteric_enderman.first_bungeecord_plugin.event_listeners.ConnectionListener;
-import dev.esoteric_enderman.first_bungeecord_plugin.event_listeners.ProxyPingEventListener;
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.DebugUtility;
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.PluginUtility;
+import dev.enderman.minecraft.network.plugins.first.commands.FruitCommand;
+import dev.enderman.minecraft.network.plugins.first.commands.MessageCommand;
+import dev.enderman.minecraft.network.plugins.first.commands.PingCommand;
+import dev.enderman.minecraft.network.plugins.first.commands.ReplyCommand;
+import dev.enderman.minecraft.network.plugins.first.event.listeners.ConnectionListener;
+import dev.enderman.minecraft.network.plugins.first.event.listeners.ProxyPingEventListener;
+import dev.enderman.minecraft.network.plugins.first.utility.DebugUtility;
+import dev.enderman.minecraft.network.plugins.first.utility.PluginUtility;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.api.plugin.PluginManager;

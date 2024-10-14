@@ -1,8 +1,8 @@
-package dev.esoteric_enderman.first_bungeecord_plugin.commands;
+package dev.enderman.minecraft.network.plugins.first.commands;
 
-import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin;
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.CommandUtility;
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.type.MessageSender;
+import dev.enderman.minecraft.network.plugins.first.FirstBungeeCordPlugin;
+import dev.enderman.minecraft.network.plugins.first.utility.CommandUtility;
+import dev.enderman.minecraft.network.plugins.first.utility.types.MessageSender;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;

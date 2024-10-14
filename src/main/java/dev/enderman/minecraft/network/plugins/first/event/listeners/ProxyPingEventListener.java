@@ -1,7 +1,7 @@
-package dev.esoteric_enderman.first_bungeecord_plugin.event_listeners;
+package dev.enderman.minecraft.network.plugins.first.event.listeners;
 
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.ChatUtility;
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.DebugUtility;
+import dev.enderman.minecraft.network.plugins.first.utility.ChatUtility;
+import dev.enderman.minecraft.network.plugins.first.utility.DebugUtility;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.Favicon;
 import net.md_5.bungee.api.ServerPing;

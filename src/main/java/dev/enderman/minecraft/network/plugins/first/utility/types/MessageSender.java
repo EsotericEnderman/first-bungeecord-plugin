@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.first_bungeecord_plugin.utility.type;
+package dev.enderman.minecraft.network.plugins.first.utility.types;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.connection.ProxiedPlayer;

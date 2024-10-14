@@ -1,6 +1,6 @@
-package dev.esoteric_enderman.first_bungeecord_plugin.commands;
+package dev.enderman.minecraft.network.plugins.first.commands;
 
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.StringUtility;
+import dev.enderman.minecraft.network.plugins.first.utility.StringUtility;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Command;

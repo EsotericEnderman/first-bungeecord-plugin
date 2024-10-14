@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.first_bungeecord_plugin.utility;
+package dev.enderman.minecraft.network.plugins.first.utility;
 
 import net.md_5.bungee.api.ChatColor;
 

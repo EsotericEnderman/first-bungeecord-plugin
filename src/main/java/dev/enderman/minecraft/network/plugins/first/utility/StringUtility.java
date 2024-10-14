@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.first_bungeecord_plugin.utility;
+package dev.enderman.minecraft.network.plugins.first.utility;
 
 import org.jetbrains.annotations.NotNull;
 

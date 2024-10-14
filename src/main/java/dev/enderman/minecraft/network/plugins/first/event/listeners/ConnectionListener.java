@@ -1,8 +1,8 @@
-package dev.esoteric_enderman.first_bungeecord_plugin.event_listeners;
+package dev.enderman.minecraft.network.plugins.first.event.listeners;
 
-import dev.esoteric_enderman.first_bungeecord_plugin.FirstBungeeCordPlugin;
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.ChatUtility;
-import dev.esoteric_enderman.first_bungeecord_plugin.utility.type.MessageSender;
+import dev.enderman.minecraft.network.plugins.first.FirstBungeeCordPlugin;
+import dev.enderman.minecraft.network.plugins.first.utility.ChatUtility;
+import dev.enderman.minecraft.network.plugins.first.utility.types.MessageSender;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.event.PlayerDisconnectEvent;

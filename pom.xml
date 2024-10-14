@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.esoteric_enderman</groupId>
-    <artifactId>first_bungeecord_plugin</artifactId>
+    <artifactId>minecraft.network.plugins.first</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
