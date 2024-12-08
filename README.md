@@ -1,5 +1,7 @@
 # First BungeeCord Plugin
 
+[![Project Status: Completed](./assets/images/badges/status.svg)](./)
+
 > My first BungeeCord plugin. Nothing much to see here.
 
 ## License
